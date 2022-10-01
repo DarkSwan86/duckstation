@@ -1154,7 +1154,7 @@ void FullscreenUI::DrawLandingWindow()
     ImGui::SetCursorPos(ImVec2(ImGui::GetWindowWidth() - rev_size.x - LayoutScale(20.0f),
                                ImGui::GetWindowHeight() - rev_size.y - LayoutScale(20.0f)));
     ImGui::PushFont(g_medium_font);
-    ImGui::Text(g_scm_tag_str);
+    ImGui::Text("%s", g_scm_tag_str);
     ImGui::PopFont();
   }
 
